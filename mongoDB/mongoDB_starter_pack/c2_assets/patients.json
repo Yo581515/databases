@@ -1,0 +1,31 @@
+[
+    {
+        "firstName": "Max",
+        "lastName": "Schwarzmueller",
+        "age": 29,
+        "history": [
+            {
+                "date": "2023-01-15",
+                "condition": "Flu",
+                "treatment": "Rest and hydration"
+            },
+            {
+                "date": "2023-02-20",
+                "condition": "Allergy",
+                "treatment": "Antihistamines"
+            }
+        ]
+    },
+    {
+        "firstName": "Yosafe",
+        "lastName": "Fesaha Oqbamecail",
+        "age": 27,
+        "history": [
+            {
+                "date": "2023-03-10",
+                "condition": "Back pain",
+                "treatment": "Physical therapy"
+            }
+        ]
+    }
+]
