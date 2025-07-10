@@ -87,3 +87,6 @@ print("You have seen insert_one, insert_many, ordered inserts, writeConcern, and
 
 print("\n📌 Useful Resources & Links")
 print("https://www.mongodb.com/docs/manual/core/crud-write-operations/")
+
+collection.drop()
+client.close()

@@ -118,3 +118,7 @@ print("\n📌 15. Add 'Reading' hobby only if not present for Anna")
 collection.update_one({"name": "Anna"}, {"$addToSet": {"hobbies": {"title": "Reading", "frequency": 2}}})
 pprint(collection.find_one({"name": "Anna"}))
 print()
+
+
+collection.drop()
+client.close()

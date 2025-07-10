@@ -78,3 +78,7 @@ result = passengers.find_one(
     { "name": 1, "address.city": 1, "_id": 0 }
 )
 pprint(result)
+
+db.drop_collection("passengers")
+# Close the MongoDB connection
+client.close()

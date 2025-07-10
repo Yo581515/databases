@@ -121,10 +121,10 @@ except Exception as e:
 # Wrap up
 print("\n✅ All schema and relation sections covered.")
 
-'''# drop the database to clean up
+#drop the database to clean up
 client.drop_database("schema_demo")
 # Close the MongoDB connection
 client.close()
 # End of the script
 print("MongoDB connection closed.")
-# End of the script'''
+# End of the script

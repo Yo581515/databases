@@ -157,3 +157,6 @@ for show in collection.find({}, {"name": 1, "genres": {"$slice": 2}}):
 for show in collection.find({}, {"name": 1, "genres": {"$slice": 2}}):
     pprint(show)
     print()
+
+collection.drop()
+client.close()
